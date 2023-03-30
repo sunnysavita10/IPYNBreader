@@ -5,7 +5,7 @@ with open("README.md","r",encoding="utf-8") as f:
 
 __version__ = "0.0.1"
 
-REPO_NAME = "demo-project"
+REPO_NAME = "demo_project"
 AUTHOR_USER_NAME = "sunny savita"
 AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
 SRC_REPO = "demo-project"
@@ -20,7 +20,7 @@ setuptools.setup(
     long_discription_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues"
     },
     package_dir={"":"src"},
     packages=setuptools.find_packages(where="src")
