@@ -4,6 +4,7 @@ It makes it easier to install and manage dependencies for development and testin
 # difference between requirements_dev.txt and requirements.txt
 
 requirements.txt is used to specify the dependencies required to run the production code of a Python project, while requirements_dev.txt is used to specify the dependencies required for development and testing purposes.
+
 # tox.ini
 We use if for the testing in the python package testing against different version of the python 
 
@@ -23,8 +24,8 @@ In summary, setup.cfg is used by setuptools to configure the packaging and insta
 
 # Testing python application
 *types of testing*
- 1. Automated testing 
- 2. Manual testing
+1. Automated testing 
+2. Manual testing
 
 *Mode of testing*
 1. Unit testing
