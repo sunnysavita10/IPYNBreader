@@ -1,5 +1,5 @@
 import pytest
-from demo_project.site import is_valid
+from IPYNBreader.site import is_valid
 
 URL_test_data = [
     ("http://pytorch.org", True),
